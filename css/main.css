@@ -229,7 +229,7 @@ hreo animation
 }
 
 .hero-banner h1 {
-animation: herotitle 1.2s ease-out;
+    animation: herotitle 1.2s ease-out;
 }
 
 .hero-banner p {
@@ -433,15 +433,15 @@ emergency devices
 }
 
 @media screen and (min-width: 992px) {
-    .title h1{
-font-size: 2.5rem;
+    .title h1 {
+        font-size: 2.5rem;
     }
 
 
-.section-part {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-}
+    .section-part {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
 }
 
 /*
@@ -456,7 +456,7 @@ animation for device card
 @keyframes deviceappear {
     from {
         opacity: 0;
-    transform: translateY(35px);
+        transform: translateY(35px);
     }
 
     to {
@@ -464,7 +464,7 @@ animation for device card
         transform: translateY(0);
     }
 }
- 
+
 .title {
     animation: titleappear 0.7s ease-out both;
 }
@@ -472,7 +472,7 @@ animation for device card
 @keyframes titleappear {
     from {
         opacity: 0;
-    transform: translateY(-20px);
+        transform: translateY(-20px);
     }
 
     to {
@@ -581,11 +581,11 @@ search box
     max-width: 650px;
     position: absolute;
     top: 90px;
-  
+
     transform: translateY(-30%);
     z-index: 10;
     text-align: center;
-    
+
 
 }
 
@@ -600,7 +600,7 @@ search box
 }
 
 .search-result h4 {
-margin: 0 0 5px;
+    margin: 0 0 5px;
 }
 
 .search-result p {
@@ -612,6 +612,13 @@ margin: 0 0 5px;
     .search-results {
         width: 80%;
         max-width: 1000px;
-    transform: translateY(10%);
+        transform: translateY(10%);
+    }
+}
+
+
+@media (min-width: 375px) and (max-width: 400px) {
+    .search-box {
+        transform: translateY(-60px);
     }
 }
